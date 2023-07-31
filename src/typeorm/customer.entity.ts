@@ -9,13 +9,13 @@ export class Customer {
   id: number;
 
   @Column({
-    nullable: false,
+    nullable: true,
     default: '',
   })
   username: string;
 
   @Column({
-    nullable: false,
+    nullable: true,
     default: '',
     name: 'email_address',
   })
